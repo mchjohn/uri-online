@@ -148,4 +148,21 @@
     console.log("VOLUME =", V.toFixed(3));
 </details>
 
+<details>
+  <summary>1011</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    const PI = 3.14159
+
+    var [a, b, c] = lines.shift().split(' ').map(item => parseFloat(item))
+
+    console.log('TRIANGULO: ' + (a * c / 2).toFixed(3))
+    console.log('CIRCULO: ' + (PI * (Math.pow(c, 2))).toFixed(3))
+    console.log('TRAPEZIO: ' + ((a + b) * c / 2).toFixed(3))
+    console.log('QUADRADO: ' + (Math.pow(b, 2)).toFixed(3))
+    console.log('RETANGULO: ' + (a * b).toFixed(3))
+</details>
+
 
