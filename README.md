@@ -149,7 +149,7 @@
 </details>
 
 <details>
-  <summary>1011</summary>
+  <summary>1012</summary>
 
     var input = require('fs').readFileSync('/dev/stdin', 'utf8');
     var lines = input.split('\n');
@@ -164,5 +164,4 @@
     console.log('QUADRADO: ' + (Math.pow(b, 2)).toFixed(3))
     console.log('RETANGULO: ' + (a * b).toFixed(3))
 </details>
-
 
