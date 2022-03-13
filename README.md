@@ -134,3 +134,18 @@
 
     console.log("VALOR A PAGAR: R$", (p1 + p2).toFixed(2));
 </details>
+
+<details>
+  <summary>1011</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    let [R] = lines.map(item => parseFloat(item));
+    let PI = 3.14159;
+    let V = 4 / 3 * PI * Math.pow(R, 3);
+
+    console.log("VOLUME =", V.toFixed(3));
+</details>
+
+
