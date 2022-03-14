@@ -165,3 +165,25 @@
     console.log('RETANGULO: ' + (a * b).toFixed(3))
 </details>
 
+<details>
+  <summary>1013</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    let [a, b , c] = lines.shift().split(' ').map(Number)
+
+    console.log(Math.max(a, b , c) + ' eh o maior')
+</details>
+
+<details>
+  <summary>1014</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    let [x, y] = lines.map(item => parseFloat(item))
+
+    console.log((x / y).toFixed(3) + ' km/l')
+</details>
+
