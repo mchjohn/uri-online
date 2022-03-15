@@ -187,3 +187,29 @@
     console.log((x / y).toFixed(3) + ' km/l')
 </details>
 
+<details>
+  <summary>1014</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    var [x1, y1] = lines.shift().split(" ");
+    var [x2, y2] = lines.shift().split(" ");
+
+    var D = Math.sqrt(Math.pow(x2 - x1,2) + Math.pow(y2 - y1,2));
+
+    console.log(D.toFixed(4));
+</details>
+
+<details>
+  <summary>1015</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    let [KM] = lines.map(Number)
+
+    let min = 60 * KM / 30
+
+    console.log(min + ' minutos')
+</details>
