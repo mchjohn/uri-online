@@ -188,7 +188,7 @@
 </details>
 
 <details>
-  <summary>1014</summary>
+  <summary>1015</summary>
 
     var input = require('fs').readFileSync('/dev/stdin', 'utf8');
     var lines = input.split('\n');
@@ -202,7 +202,7 @@
 </details>
 
 <details>
-  <summary>1015</summary>
+  <summary>1016</summary>
 
     var input = require('fs').readFileSync('/dev/stdin', 'utf8');
     var lines = input.split('\n');
@@ -212,4 +212,15 @@
     let min = 60 * KM / 30
 
     console.log(min + ' minutos')
+</details>
+
+<details>
+  <summary>1017</summary>
+
+    var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+    var lines = input.split('\n');
+
+    let [temp, vel] = lines.map(Number)
+
+    console.log((temp * vel / 12).toFixed(3))
 </details>
